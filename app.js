@@ -3,7 +3,6 @@ const app=express();
 const tasks = require('./routes/tasks');
 const connectDB = require('./routes/db/connect')
 
-
 //midleware
 
 app.use(express.json())
